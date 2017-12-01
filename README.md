@@ -27,4 +27,5 @@ Do you think it's a good representation of reality?
 ## Sources Used:
 http://www.espn.com/mlb/stats/team/_/stat/batting/sort/runs/order/true
 http://www.espn.com/mlb/stats/team/_/stat/pitching
+https://espn.go.com/mlb/stats/team/_/stat/pitching/split/128
 
