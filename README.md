@@ -1,5 +1,4 @@
-# Title: 
-Did REAL Winner Win the 2017 World Series?
+# Title: Did REAL Winner Win the 2017 World Series?
 
 ## Team Member(s): Kameron Wells
 
