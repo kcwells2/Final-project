@@ -16,7 +16,9 @@ The World Series this year between the Astros and Dodgers was one of the excitin
 For offense I will use a PERT simulation to give us the expected runs scored for both teams offensives that game
 For pitching I am more specific in this approach by breaking this down by starters and relievers for a vareity of reasons; pitchers have the ball every play of the game while hitter will bat 3 or 4 times a game, starter wont go the complete game every time so relievers will come in and clean it up. I elected to not break relievers up because I found a stat that had bullpen runs allowed which accomidates for any combination of relievers used. Because I used starters/relievers I also will use a PERT for expected innings during that game my starter will go and then the relievers will finish it up.
 Finally I add runs scored to the opponents runs allowed and divide by two to get the expected runs scored per game. I.e. if the Astros offense has enough "production" (simulated runs that game) to score 5 runs a game but the Dodgers pitching has enough "production" (simulated runs given up that game) to only give up 3 runs a game then it is assumed they will meet in the middle and the Astros will score 4 runs that game off Dodgers pitching. First to 4 wins that series wins that World Series simulation
+
 ***if the game goes 9 innings and is tied then the team with the (expected) better bullpen will win.
+
 ***if bullpens are even then it is assumed the better offense will score eventually. 
 
 ### Hypothesis before running the simulation: 
