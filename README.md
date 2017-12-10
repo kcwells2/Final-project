@@ -13,9 +13,9 @@ Finally I add one teams runs scored to the opponents runs allowed and divide by 
 
 I.e. if the Astros offense has enough "production" (simulated runs that game) to score 5 runs a game but the Dodgers pitching has enough "production" (simulated runs given up that game) to only give up 3 runs a game then it is assumed they will meet in the middle and the Astros will score 4 runs that game off Dodgers pitching. First to 4 wins that series wins that World Series simulation
 
-*if the game goes 9 innings and is tied then the team with the (expected) better bullpen will win because it is assumed the better bullpen will hold the other team off long enough to score.*
+*if the game goes 9 innings and is tied then the team with the (expected) better bullpen will win because it is assumed the better bullpen will hold the other team off long enough to score*
 
-*if bullpens are even in expected runs per game then it is assumed the better offense will score eventually. *
+*if bullpens are even in expected runs per game then it is assumed the better offense will score eventually.*
 
 **I elected to do it in this manner because when I left it as "expected runs scored" that would account for any variation of the lineup that the team could configure so I didnt have to account for pinch hitters / designated hitter / spot in the order/ etc. management. But a starting pitcher is one player and has such an impacts on the game I did elect to make then each an individual entity while relievers were left as a whole (like hitters) to account for any possbile combination of relievers. 
 I elected to leave it as starters vs relievers apperances (2 entity simulations) as opposed to a 9 inning game simulation (9+ entity simulations) because the only way to make a true 9 inning simulation would be to have hitters included because of different skilled hitter hit in different places of the order so to make it a fair simulation I left it as pitchers (2 entites) and hitters (1 entity)** 
